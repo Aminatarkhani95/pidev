@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello CategorieController!{% endblock %}
+
+{% block body %}
+    <table>
+        <thead>
+        <tr>
+        <th>ID</th>
+        <th>Nom Categorie</th>
+        </tr>
+        </thead>
+        <tbody>
+    {% for categorie in categorie %}
+        <tr>
+        <td>{{categorie.getIdCat()}}</td>
+        <td>{{categorie.getNomCat()}}</td>
+            <td><a class="btn btn-info" href="/remove/{{categorie.getIdCat()}}">Supprimer</a></td>
+            <td><a class="btn btn-danger" href="/update/{{categorie.getIdCat()}}">Modifier</a></td>
+        </tr>
+    {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
+

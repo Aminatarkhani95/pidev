@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ProduitController!{% endblock %}
+
+{% block body %}
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nom Produit</th>
+            <th>Description</th>
+            <th>Prix</th>
+            <th>Quantité</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        {% for produit in produit %}
+            <tr>
+                <td>{{produit.getIdProd()}}</td>
+                <td>{{produit.getNomProd()}}</td>
+                <td>{{produit.getDescProd()}}</td>
+                <td>{{produit.getPrixProd()}}</td>
+                <td>{{produit.getQteProd()}}</td>
+                <td><a class="btn btn-info" href="/removep/{{produit.getIdProd()}}">Supprimer</a></td>
+                <td><a class="btn btn-danger" href="/updatep/{{produit.getIdProd()}}">Modifier</a></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
+
