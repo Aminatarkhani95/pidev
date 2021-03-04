@@ -11,6 +11,14 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
@@ -118,6 +126,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1pAYUH8mqMuK84bCZwRK5vfrMqa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -161,12 +170,24 @@
       <workItem from="1614783812391" duration="6290000" />
       <workItem from="1614790558597" duration="17431000" />
       <workItem from="1614846416686" duration="653000" />
-      <workItem from="1614848364817" duration="2195000" />
+      <workItem from="1614848364817" duration="2517000" />
     </task>
+    <task id="LOCAL-00001" summary="amina commit">
+      <created>1614856353112</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614856353112</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="amina commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="amina commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1614804876468">
